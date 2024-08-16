@@ -1,0 +1,41 @@
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 30px;
+  gap: 100px;
+}
+.nav-bar {
+  background-color: rgb(22, 22, 67);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+.nav-bar ul li {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+.nav-bar ul li:hover {
+  color: #b7dbff;
+}
+.nav-bar ul a {
+  text-decoration: none;
+}
+.nav-bar ul {
+  position: relative;
+}
+.cart-length {
+  position: absolute;
+  top: 50px;
+  right: 100;
+  background-color: red;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
